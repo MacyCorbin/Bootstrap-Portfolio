@@ -1,0 +1,126 @@
+
+
+
+/*////////////// Header \\\\\\\\\\\\\\\*/
+
+/*-------- Title ---------*/
+
+.title{
+    font-size: 24px;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    font-weight: bold;
+    color:#ffffff;
+    background-color: #4aaaa5;
+    padding: 15px 30px 15px 30px;
+    margin-left: 10px;
+}
+
+.headerContainer{
+    background-color: white;
+}
+/*-------- Nav Bar ---------*/
+
+
+
+
+
+/*-------- Background ---------*/
+#background{
+    background-image: url("images/gplaypattern.png");
+    border-top: 1px solid #cccccc;
+}
+
+
+
+/*////////////// Container \\\\\\\\\\\\\\\*/
+
+.container {
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    color: #777777;
+    background-color: #ffffff;
+    width: 960px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+/*-------- Page Titles ---------*/
+.pageTitles{
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    font-weight: bold;
+    font-size: 24px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #cccccc;
+    margin: 0px 0 20px 0;
+    color: #4aaaa5;
+}
+
+/*-------- About ---------*/
+#contentMargin{
+    border: 1px solid #dddddd;
+    margin: 30px 0px 500px 0px;
+    padding: 0px 10px 20px 10px;
+    background-color: #ffffff;
+    align-content: center;
+    width: 918px;
+    padding: 20px;
+}
+#text{
+    padding-left: 40px;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    color: #777777;
+    padding-right: 15px;
+    
+}
+
+/*-------- Portfolio ---------*/
+
+.wp-caption-text {
+    display: inline-block;
+    margin-top: 160px;
+    position: absolute;
+    width: 90%;
+    background-color: #3f8f8b;
+    color: #fff;
+    text-align: center;
+    padding: 1em 0 1em 0;
+    z-index: 2;
+    -webkit-box-sizing: content-box;
+    box-sizing: border-box;
+}
+
+.imgOp:hover{
+    opacity: 0.5;
+}
+
+.rowSpace{
+    margin-bottom: 10px;
+}
+
+/*-------- Contact ---------*/
+.textStyle{
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    color: #777777;
+}
+
+.btn-default{
+    background-color:#4aaaa5;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    color:#FFF;
+}
+ 
+.btn-default:hover, .btn-default:focus, .btn-default:active, .btn-default.active, .open .dropdown-toggle.btn-default {
+ 
+    background-color:#40928e;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    color:#FFF;
+}
+
+/*////////////// Footer \\\\\\\\\\\\\\\*/
+
+#footer {
+  text-align:center;
+  color:#999999;
+  background-color: #666666;
+  border-top: 8px solid #4aaaa5;
+  padding: 10px;
+}
